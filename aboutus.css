@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    max-width: 75%;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    background-image: url(./img/handrawn-barbecue-elements.jpg);
+    background-size: cover;
+}
+
+header{
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+header nav a{
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: black;
+    font-size: 1.25rem
+}
+
+h1{
+    font-size: 3rem;
+    color:black;
+}
+
+footer{
+    border-top: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+footer a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+.container-about{
+    background-color: white;
+}
+
+p{
+    font-size: 1.5rem;
+}
